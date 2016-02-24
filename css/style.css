@@ -106,3 +106,82 @@
     padding: 5px 10px;
     border-radius: 2px;
 }
+
+.donaciones {
+    padding: 10px 35px;
+    color: #656c76;
+    text-align: center;
+}
+
+.donacion__titulo {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.donacion__formulario {
+    padding: 20px 0;
+}
+
+.donacion__monto {
+    width: 100px;
+    display: inline-block;
+}
+
+.donacion__formulario__mas {
+    background: #2dc989;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+.donacion__formulario__menos {
+    background: #ff6666;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+.donacion__input {
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #d7dce2;
+    border-radius: 3px;
+}
+
+.donacion__boton {
+    border: 1px solid #253b80;
+    color: #253b80;
+    width: 247px;
+    height: 37px;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.promesas__titulo {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.promesas__lista {
+    list-style: none;
+    padding: 0;
+}
+
+.footer {
+    background: #ff6666;
+    padding: 20px 35px;
+    color: #fff;
+}
