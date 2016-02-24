@@ -1,14 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Skytube</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <header class="cabecera">
-        <img src="img/logo.jpg" alt="SkyTube">
-        <h2>¡Descarga videos de Yotube!</h2>
+        <img class="cabecera__img" src="img/logo.jpg" alt="SkyTube">
+        <h2 class="cabecera__descripcion">¡Descarga videos de Yotube!</h2>
     </header>
+    
+    <section class="pasos">
+        <div class="paso">
+            <div class="paso__circulo">1</div>
+            <h3 class="paso__titulo">Ingresa la url del video que deseas descargar</h3>
+            <form class="paso__form" action="">
+                <input class="paso__input" type="text">
+            </form>
+            <div class="paso__preview">
+                <span>Vista previa del video</span>
+            </div>
+        </div>
+        
+        <div class="paso">
+            <div class="paso__circulo">2</div>
+            <h3 class="paso__titulo">Elige el formato de descarga</h3>
+            <div class="paso__descarga">
+                <a class="paso__descarga__video" href="#">Video: MP4</a>
+                <a class="paso__descarga__audio" href="#">Audio: M4A</a>
+            </div>
+        </div>
+        
+        <div class="paso">
+            <div class="paso__circulo">3</div>
+            <h3 class="paso__titulo">Listo, nada mas que hacer, solo seguirnos.</h3>
+            <div class="paso__links">
+                <a class="paso__link" href="">
+                    <span>Facebook</span>
+                    <span class="paso__link__facebook">1023</span>
+                </a>
+                <a class="paso__link" href="">
+                    <span>Twitter</span>
+                    <span class="paso__link__twitter">1023</span>
+                </a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

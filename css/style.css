@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+.cabecera {
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 1px solid #aeb3bb;
+}
+
+.cabecera__descripcion {
+    color: #aeb3bb;
+    font-weight: normal;
+    font-size: 16px;
+    width: 150px;
+    margin: 16px auto;
+}
+
+.pasos {
+    background: #fbfbfb;
+    padding: 10px 35px;
+    text-align: center;
+    color: #656c76;
+}
+
+.paso {
+    margin: 30px 0;
+}
+
+.paso__circulo {
+    width: 25px;
+    height: 25px;
+    background: #4a8bf9;
+    border-radius: 50%;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 25px;
+}
+
+.paso__titulo {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.paso__input {
+    width: 247px;
+    height: 20px;
+    border: 1px solid #d7dce2;
+    border-radius: 2px;
+}
+
+.paso__preview {
+    width: 247px;
+    height: 123px;
+    border: 1px solid #d7dce2;
+    border-radius: 2px;
+    background: #fff;
+    margin: 20px auto 0 auto;
+    padding-top: 30px;
+    color: #d7dce2;
+}
+
+.paso__descarga__video {
+    background: #4a8bf9;
+    width: 97px;
+    height: 28px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    line-height: 28px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.paso__descarga__audio {
+    background: #2dc989;
+    width: 97px;
+    height: 28px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    line-height: 28px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.paso__link {
+    display: block;
+    color: #aeb3bb;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+.paso__link__facebook {
+    background: #3a5795;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+.paso__link__twitter {
+    background: #4099ff;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
