@@ -21,6 +21,7 @@
     padding: 10px 35px;
     text-align: center;
     color: #656c76;
+    border-bottom: 1px solid #aeb3bb;
 }
 
 .paso {
@@ -43,10 +44,19 @@
 }
 
 .paso__input {
-    width: 247px;
+    width: 100%;
+    min-width: 247px;
+    max-width: 500px;
     height: 20px;
     border: 1px solid #d7dce2;
     border-radius: 2px;
+}
+
+@media screen and (min-width: 768px) {
+    .paso__input {
+        /* width: 500px; */
+        height: 30px;
+    }
 }
 
 .paso__preview {
@@ -184,4 +194,5 @@
     background: #ff6666;
     padding: 20px 35px;
     color: #fff;
+    text-align: center;
 }
